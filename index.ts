@@ -1,10 +1,14 @@
-let alphas=['a','b','c','d','e','f','i','o']
-for(let i=0;i<alphas.length;i++){
-    if(alphas[i] == 'a' || alphas[i] == 'e' || alphas[i] == 'i' || alphas[i] == 'o' || alphas[i] == 'u' ){
-        console.log(`its vowels`);
-    }
-    else{
-        console.log("its not a vowel");
-        
-    }
+let num1=Math.random()*100
+console.log(num1);
+
+let ceil=Math.floor(num1)
+console.log(ceil);
+
+if(ceil%2==0){
+    console.log(`${ceil} is even`);
+    
+}
+else{
+    console.log(`${ceil} is odd`);
+    
 }
