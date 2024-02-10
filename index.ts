@@ -1,26 +1,10 @@
-function first(){
-    let arr=[12,3,43,54,75,85,34,64]
-    let num=0
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]>num){
-        num=arr[i]  
-        } 
+let alphas=['a','b','c','d','e','f','i','o']
+for(let i=0;i<alphas.length;i++){
+    if(alphas[i] == 'a' || alphas[i] == 'e' || alphas[i] == 'i' || alphas[i] == 'o' || alphas[i] == 'u' ){
+        console.log(`its vowels`);
     }
-    console.log(num);
-   
-    second()
-    
-}
-function second(){
-    console.log("it is the max num");
-    let arr=[12,3,43,54,75,85,34,64]
-    let num=999999
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]<num){
-        num=arr[i]  
-        }
+    else{
+        console.log("its not a vowel");
+        
     }
-    console.log(num);
-    console.log("it is the min num");
 }
-first()
